@@ -1,11 +1,59 @@
+@font-face {
+    font-family: 'Squarefont Outline', sans-serif;
+    src: url('Squarefont.ttf') format('truetype'); /* Replace 'Squarefont.ttf' with the filename of the TTF file you downloaded */
+}
+  
 .favorite {
     color: goldenrod;
 }
 
 .logo {
-    width: 180px;
+    width: 350px;
 }
 
 .moon {
     width: 100%;
+}
+
+.main {
+    background-color: black;
+}
+
+ 
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.fa-star {
+    color: white;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+h1 {
+    font-family: 'Squarefont Outline', sans-serif;
+}
+
+h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
 }
