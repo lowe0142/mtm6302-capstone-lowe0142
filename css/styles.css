@@ -55,12 +55,12 @@ h1 {
     font-family: 'Squarefont Outline', sans-serif;
 }
 
-h4 {
+h6 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
 }
 
-h3 , .datebutton, .datesubmit{
+h6 , .datebutton, .datesubmit{
     font-family: 'Orbitron', sans-serif;
 }
 
