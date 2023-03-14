@@ -8,12 +8,12 @@
     src: url('orbitron-regular.ttf') format('truetype');
 }
   
-.favorite {
+.favorite  {
     color: goldenrod;
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
 }
 
 .moon {
@@ -41,6 +41,7 @@ nav ul li a {
     padding: 5px;
     text-decoration: none;
     color: white;
+    font-size: 10px;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -61,4 +62,8 @@ h4 {
 
 h3 , .datebutton, .datesubmit{
     font-family: 'Orbitron', sans-serif;
+}
+
+.datebutton, .datesubmit {
+    background-color: goldenrod;
 }
