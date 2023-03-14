@@ -2,13 +2,18 @@
     font-family: 'Squarefont Outline', sans-serif;
     src: url('Squarefont.ttf') format('truetype'); /* Replace 'Squarefont.ttf' with the filename of the TTF file you downloaded */
 }
+
+@font-face {
+    font-family: 'Orbitron Regular';
+    src: url('orbitron-regular.ttf') format('truetype');
+}
   
 .favorite {
     color: goldenrod;
 }
 
 .logo {
-    width: 350px;
+    width: 300px;
 }
 
 .moon {
@@ -33,7 +38,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     color: white;
     font-family: 'Orbitron', sans-serif;
@@ -54,6 +59,6 @@ h4 {
     font-weight: bold;
 }
 
-h3 {
+h3 , .datebutton, .datesubmit{
     font-family: 'Orbitron', sans-serif;
 }
