@@ -8,7 +8,7 @@
     src: url('orbitron-regular.ttf') format('truetype');
 }
   
-.favorite  {
+.favorite {
     color: goldenrod;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .imgday {
-    width: 400px;
+    width: 500px;
 }
 nav ul {
     display: inline-block;
