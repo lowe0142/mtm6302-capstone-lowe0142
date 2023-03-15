@@ -76,7 +76,7 @@ h6 , h3, .datebutton, .datesubmit{
 
 /* MEDIA QUERY*/ 
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .moon {
       width: 100%;
       height: 700px;
