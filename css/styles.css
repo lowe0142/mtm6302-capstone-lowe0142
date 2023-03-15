@@ -69,3 +69,7 @@ h6 , h3, .datebutton, .datesubmit{
 .datebutton, .datesubmit {
     background-color: goldenrod;
 }
+
+.imgtitle {
+    color: goldenrod;
+}
