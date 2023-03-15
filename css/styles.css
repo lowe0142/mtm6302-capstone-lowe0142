@@ -64,6 +64,7 @@ h6 {
 
 h6 , h3, .datebutton, .datesubmit{
     font-family: 'Orbitron', sans-serif;
+    color: white;
 }
 
 .datebutton, .datesubmit {
@@ -85,7 +86,16 @@ h6 , h3, .datebutton, .datesubmit{
     nav ul li a , .fa-star{
         font-size: 25px;
     }
-    
+
+    .logo {
+        width: 400px;        
+    }
+
+    h6 , h3 {
+        color: black;
+    }
+
+
   }
   
   
