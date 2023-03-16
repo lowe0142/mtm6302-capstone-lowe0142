@@ -13,7 +13,7 @@
 }
 
 .logo{
-    width: 250px;
+    width: 400px;
 }
 
 .moon {
@@ -43,7 +43,7 @@ nav ul li a {
     padding: 5px;
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -84,15 +84,14 @@ h6 , h3, .datebutton, .datesubmit{
     }
 
     .logo {
-        width: 500px; 
-
+        width: 800px;
     }
 
-    h6 , h3 {
-        color: black;
-    }
     .imgday {
         width: 100%;
+    }
+    .moon {
+        height: 700px;
     }
   }
   
