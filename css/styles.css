@@ -25,7 +25,7 @@
 }
 
 .imgday {
-    width: 500px;
+    width: 1000px;
 }
 nav ul {
     display: inline-block;
@@ -53,7 +53,7 @@ nav ul li a {
     margin-right: 5px;
   }
 
-.main-h1 {
+h1 {
     font-family: 'Squarefont Outline', sans-serif;
 }
 
@@ -84,13 +84,16 @@ h6 , h3, .datebutton, .datesubmit{
     }
 
     .logo {
-        width: 400px; 
+        width: 500px; 
+
     }
 
     h6 , h3 {
         color: black;
     }
-
+    .imgday {
+        width: 100%;
+    }
   }
   
   
