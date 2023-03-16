@@ -62,12 +62,12 @@ h6 {
     font-weight: bold;
 }
 
-h6 , h3, h2 , .datebutton, .datesubmit{
+h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
 
-.datebutton, .datesubmit {
+.datebutton, .datesubmit , .datebutton2{
     background-color: goldenrod;
 }
 
