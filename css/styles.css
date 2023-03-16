@@ -84,16 +84,16 @@ h6 , h3, .datebutton, .datesubmit{
     }
 
     .logo {
-        width: 800px;
-    }
-
-    .imgday {
-        width: 100%;
+        width: 600px;
     }
     .moon {
         height: 700px;
     }
-  }
+    p {
+        font-size: 50px;
+    }
+
+}
   
   
   
