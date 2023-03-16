@@ -62,7 +62,7 @@ h6 {
     font-weight: bold;
 }
 
-h6 , h3, .datebutton, .datesubmit{
+h6 , h3, h2 , .datebutton, .datesubmit{
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
@@ -92,7 +92,28 @@ h6 , h3, .datebutton, .datesubmit{
     p {
         font-size: 50px;
     }
+    h3 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
 
+    .datebutton {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .datesubmit {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
 }
   
   
