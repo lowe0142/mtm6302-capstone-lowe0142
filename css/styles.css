@@ -53,7 +53,7 @@ nav ul li a {
     margin-right: 5px;
   }
 
-h1 {
+.main-h1 {
     font-family: 'Squarefont Outline', sans-serif;
 }
 
@@ -78,23 +78,18 @@ h6 , h3, .datebutton, .datesubmit{
 /* MEDIA QUERY*/ 
 
 @media (min-width: 992px) {
-    .moon {
-      width: 100%;
-      height: 700px;
-    }
 
     nav ul li a , .fa-star{
         font-size: 25px;
     }
 
     .logo {
-        width: 400px;        
+        width: 400px; 
     }
 
     h6 , h3 {
         color: black;
     }
-
 
   }
   
