@@ -75,7 +75,7 @@ h6 , h3, h2 , .datebutton, .datesubmit{
     color: goldenrod;
 }
 
-/* MEDIA QUERY*/ 
+/* MEDIA QUERY FOR DESKTOP MODE */ 
 
 @media (min-width: 992px) {
 
@@ -113,7 +113,7 @@ h6 , h3, h2 , .datebutton, .datesubmit{
         left: 50%;
         transform: translate(-50%, -50%);
       }
-    
+
 }
   
   
