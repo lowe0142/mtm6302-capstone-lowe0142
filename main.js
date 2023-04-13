@@ -35,3 +35,6 @@ function addToFavorites() {
   favorites[date] = apodData;
   localStorage.setItem('favorites', JSON.stringify(favorites));
 }
+
+const addToFavoritesButton = document.getElementById('add-to-favorites');
+addToFavoritesButton.addEventListener('click', addToFavorites);
