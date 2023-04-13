@@ -25,3 +25,13 @@ launchButton.addEventListener('click', () => {
   getAPOD(date, apiKey);
 });
 
+function addToFavorites() {
+  const imageUrl = document.getElementById('apod-image').src;
+  const title = document.getElementById('apod-title').textContent;
+  const explanation = document.getElementById('apod-explanation').textContent;
+  const apodData = { imageUrl, title, explanation };
+  const date = document.getElementById('date-input').value;
+  const favorites = JSON.parse(localStorage.getItem('favorites') || '{}');
+  favorites[date] = apodData;
+  localStorage.setItem('favorites', JSON.stringify(favorites));
+}
