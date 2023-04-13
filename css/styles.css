@@ -25,9 +25,6 @@
     background-color: black;
 }
 
-.imgday {
-    width: 1000px;
-}
 nav ul {
     display: inline-block;
     list-style: none;
@@ -104,16 +101,13 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
     }
 
 }
-   
-
 #apod-image {
     width: 70%;
     height: 50%;
-    border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block; /* added to remove default inline display */
     margin: auto; /* added to center the image horizontally */
-    padding-top: 25px;
+    padding-top: 10px;
   }
   
   .datesubmit {
