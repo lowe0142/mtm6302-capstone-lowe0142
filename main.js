@@ -33,4 +33,3 @@ launchButton.addEventListener('click', () => {
   const date = document.getElementById('date-input').value;
   getAPOD(date, apiKey);
 });
-
