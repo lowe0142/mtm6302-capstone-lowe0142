@@ -29,17 +29,24 @@
             <h2>Explore Space With Nasa API</h2>
          </div>
         <div class="date">
-            <h3 class="text-center p-2 display-5">Enter Date Here</h3>
+            <h3 class="text-center p-2 display-5">Enter Non Future Date Here</h3>
         </div>
         <div class="date-input text-center d-grid col-4 mx-auto m-2">
-            <input type="date" id="date-input">
+            <input type="date" id="date-input" min="2000-01-01" max="2023-12-31">
         </div>              
-        <div class="datesubmit text-center d-grid col-2 mx-auto">
-            <button id="launch-button" class="btn btn-lg p-2">Launch</button>
-        </div> 
+        <div class="datesubmit text-center mx-auto">
+            <button id="launch-button" class="launch-button btn btn-md">Launch</button>
+        </div>
         <div class="moon">
             <img src="images/moonweb.png" class="moon" alt="image description">
         </div> 
+        <div class="image-container">
+            <img id="apod-image" src="" alt="">
+            <h2 id="apod-title"></h2>
+             <p id="apod-explanation"></p>
+            </div>
+        </div>
+    </div>
     <footer>
     </footer>
     <script src="main.js"></script>

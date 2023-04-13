@@ -18,6 +18,7 @@
 
 .moon {
     width: 100%;
+    margin-top: 20px;
 }
 
 .main {
@@ -102,29 +103,19 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
         color: black;
     }
 
-    .datebutton {
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .datesubmit {
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
 }
+   
 
 #apod-image {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
-    margin: 20px auto;
-    display: block;
+    width: 70%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block; /* added to remove default inline display */
+    margin: auto; /* added to center the image horizontally */
+    padding-top: 25px;
   }
   
-  
-  
+  .datesubmit {
+    width: 50%;
+  }
