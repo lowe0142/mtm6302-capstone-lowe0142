@@ -55,11 +55,13 @@ nav ul li a {
 
 h1 {
     font-family: 'Squarefont Outline', sans-serif;
+    color: white;
 }
 
-h6 {
+h6 , p{
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
+    color: white;
 }
 
 h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
