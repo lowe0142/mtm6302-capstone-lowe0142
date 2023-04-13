@@ -67,6 +67,7 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
     color: white;
 }
 
+
 .datebutton, .datesubmit , .datebutton2{
     background-color: goldenrod;
 }
@@ -113,3 +114,7 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
   .datesubmit {
     width: 50%;
   }
+
+ #apod-title {
+    margin-top: 20px;
+ }

@@ -11,11 +11,12 @@ function getAPOD(date, apiKey) {
       // update the HTML elements on the page to display the Picture of the Day
       document.getElementById('apod-image').src = imageUrl;
       document.getElementById('apod-image').alt = title;
-      document.getElementById('image-title').textContent = title;
-      document.getElementById('image-explanation').textContent = explanation;
+      document.getElementById('apod-title').textContent = title;
+      document.getElementById('apod-explanation').textContent = explanation;
     })
     .catch(error => console.error(error));
 }
+
 const launchButton = document.getElementById('launch-button');
 const apiKey = '8neWwEflI1jIW6pOV2tUxoUvEaFDShETxqZakc7R';
 
