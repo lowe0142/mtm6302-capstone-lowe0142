@@ -108,7 +108,7 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
     border-radius: 20px;
     display: block; /* added to remove default inline display */
     margin: auto; /* added to center the image horizontally */
-    padding-top: 10px;
+    margin-top: 40px;
   }
   
   .datesubmit {
@@ -118,3 +118,4 @@ h6 , h3, h2 , .datebutton, .datebutton2 , .datesubmit{
  #apod-title {
     margin-top: 20px;
  }
+
