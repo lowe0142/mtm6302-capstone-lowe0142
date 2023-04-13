@@ -3,7 +3,11 @@
 document.getElementById("launch-button").addEventListener("click", function() {
     window.location.href = "image.html";
   });
-  
+
+//DATE BUTTON//
+  document.getElementById("date-btn").innerHTML = dateSubmitted;
+
+
 
 // Replace YOUR_API_KEY with your actual API key
 const API_KEY = '8neWwEflI1jIW6pOV2tUxoUvEaFDShETxqZakc7R';
