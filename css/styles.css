@@ -102,6 +102,19 @@ h6 , h3, h2 , .datesubmit{
     }
     p {
         font-size: 20px;
+        margin: 10px;
+    }
+    #apod-image {
+        width: 200px;
+        height: 50%;
+        border-radius: 20px;
+        display: block; /* added to remove default inline display */
+        margin: auto; /* added to center the image horizontally */
+        margin-top: 40px;
+        display: none;
+      }
+    #apod-title {
+        margin: 10px;
     }
 
 }
