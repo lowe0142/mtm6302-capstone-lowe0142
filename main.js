@@ -14,6 +14,8 @@ function getAPOD(date, apiKey) {
       document.getElementById('apod-title').textContent = title;
       document.getElementById('apod-explanation').textContent = explanation;
 
+      document.getElementById('apod-image').style.display = 'block';
+
       // add event listener to favorite button to save current image URL to a cookie
       const favoriteButton = document.getElementById('favorite-button');
       favoriteButton.addEventListener('click', () => {
@@ -26,10 +28,10 @@ function getAPOD(date, apiKey) {
 }
 
 
-const launchButton = document.getElementById('launch-button');
+const dateButton = document.getElementById('launch-button');
 const apiKey = '8neWwEflI1jIW6pOV2tUxoUvEaFDShETxqZakc7R';
 
-launchButton.addEventListener('click', () => {
+dateButton.addEventListener('click', () => {
   const date = document.getElementById('date-input').value;
   getAPOD(date, apiKey);
 });
@@ -44,6 +46,7 @@ function addToFavorites() {
   const apodImage = document.getElementById('apod-image').src;
   const apodTitle = document.getElementById('apod-title').textContent;
   const apodExplanation = document.getElementById('apod-explanation').textContent;
+
 
   // Create an object to store the image data
   const favoriteImage = {
@@ -98,5 +101,5 @@ function showFavorites() {
     });
   }
 }
-
 window.onload = showFavorites;
+

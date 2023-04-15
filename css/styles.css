@@ -101,7 +101,7 @@ h6 , h3, h2 , .datesubmit{
         height: 400px;
     }
     p {
-        font-size: 50px;
+        font-size: 20px;
     }
 
 }
@@ -116,6 +116,7 @@ h6 , h3, h2 , .datesubmit{
     display: block; /* added to remove default inline display */
     margin: auto; /* added to center the image horizontally */
     margin-top: 40px;
+    display: none;
   }
   
   .datesubmit {
