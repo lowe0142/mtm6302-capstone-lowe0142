@@ -62,7 +62,7 @@ h6 , p{
     color: white;
 }
 
-h6 , h3, h2 , .datebutton{
+h6 , h3, h2 , .datesubmit{
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
@@ -81,9 +81,6 @@ h6 , h3, h2 , .datebutton{
     color: white;
 }
 
-.datebutton, .datesubmit , .datebutton2{
-    background-color: goldenrod;
-}
 
 .imgtitle {
     color: goldenrod;
@@ -98,24 +95,20 @@ h6 , h3, h2 , .datebutton{
     }
 
     .logo {
-        width: 600px;
+        width: 400px;
     }
     .moon {
-        height: 300px;
+        height: 400px;
     }
     p {
         font-size: 50px;
     }
-    h3 {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
 
 }
 
+.text-purple {
+    color: darkorchid 
+  }
 #apod-image {
     width: 70%;
     height: 50%;
