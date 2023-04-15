@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Squarefont Outline', sans-serif;
-    src: url('Squarefont.ttf') format('truetype'); /* Replace 'Squarefont.ttf' with the filename of the TTF file you downloaded */
+    src: url('Squarefont.ttf') format('truetype'); 
 }
 
 @font-face {
@@ -101,33 +101,33 @@ h6 , h3, h2 , .datesubmit{
         height: 400px;
     }
     p {
-        font-size: 20px;
+        font-size: 15px;
         margin: 10px;
     }
     #apod-image {
         width: 200px;
         height: 50%;
         border-radius: 20px;
-        display: block; /* added to remove default inline display */
-        margin: auto; /* added to center the image horizontally */
+        display: block; 
+        margin: auto; 
         margin-top: 40px;
         display: none;
       }
     #apod-title {
         margin: 10px;
     }
-
+   
 }
 
 .text-purple {
     color: darkorchid 
   }
 #apod-image {
-    width: 70%;
+    width: 50%;
     height: 50%;
     border-radius: 20px;
-    display: block; /* added to remove default inline display */
-    margin: auto; /* added to center the image horizontally */
+    display: block; 
+    margin: auto; 
     margin-top: 40px;
     display: none;
   }
