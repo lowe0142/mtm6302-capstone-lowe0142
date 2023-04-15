@@ -62,7 +62,10 @@ h6 , p, h3, h2 , .datesubmit{
     color: white;
 }
 
-
+p {
+    font-size: 15px;
+    margin: 4px;
+}
 #favorite-button {
     font-family: 'Orbitron', sans-serif;
         display: block;
@@ -115,7 +118,8 @@ h6 , p, h3, h2 , .datesubmit{
         display: none;
       }
     #apod-title {
-        margin: 10px;
+        margin: 20px;
+        margin-top: 20px;
     }
    
 }
@@ -124,7 +128,7 @@ h6 , p, h3, h2 , .datesubmit{
     color: darkorchid 
   }
 #apod-image {
-    width: 50%;
+    width: 70%;
     height: 50%;
     border-radius: 20px;
     display: block; 
@@ -136,4 +140,5 @@ h6 , p, h3, h2 , .datesubmit{
  #apod-title {
     margin-top: 20px;
     color: goldenrod;
+    margin: 6px;
  }
