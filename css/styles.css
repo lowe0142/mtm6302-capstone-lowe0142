@@ -56,16 +56,12 @@ h1 {
     color: white;
 }
 
-h6 , p{
+h6 , p, h3, h2 , .datesubmit{
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     color: white;
 }
 
-h6 , h3, h2 , .datesubmit{
-    font-family: 'Orbitron', sans-serif;
-    color: white;
-}
 
 #favorite-button {
     font-family: 'Orbitron', sans-serif;
@@ -77,6 +73,11 @@ h6 , h3, h2 , .datesubmit{
 
 
 #favorite-button:hover {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+#launch-button:hover {
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
@@ -130,10 +131,6 @@ h6 , h3, h2 , .datesubmit{
     margin: auto; 
     margin-top: 40px;
     display: none;
-  }
-  
-  .datesubmit {
-    width: 50%;
   }
 
  #apod-title {
